@@ -20,8 +20,4 @@ export class CarListComponent {
 	removeCar(car: ICar): void {
 		this.cars.splice(this.cars.indexOf(car), 1);
 	}
-
-	onSearch(event: any) {
-		this.query = event.target.value;
-	}
 }
